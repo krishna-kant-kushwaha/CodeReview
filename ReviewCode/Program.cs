@@ -11,8 +11,8 @@ namespace ReviewCode
         {
             Console.WriteLine("Hello World!");
             //This is for even odd print
-            //EvenOdd obj = new EvenOdd();
-            //obj.CalculateEvenOdd();
+            EvenOdd obj = new EvenOdd();
+            obj.CalculateEvenOdd();
             //This is for calculate age
             //CalculateAge age = new CalculateAge();
             //Console.WriteLine("enter age");
