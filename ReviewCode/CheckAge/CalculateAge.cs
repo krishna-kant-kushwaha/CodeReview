@@ -8,24 +8,25 @@ namespace ReviewCode.CheckAge
     {
         public string Calulate(int age)
         {
-            if(age<=10)
+            if (age <= 10)
             {
                 return "child";
             }
-            else if(age>10 && age <= 20)
+            else if (age > 10 && age <= 20)
             {
                 return "Tenage";
-            }else if(age>20 && age <= 40)
+            }
+            else if (age > 20 && age <= 40)
             {
                 return "Adult";
-
-            }else if(age>=40 && age <= 100)
+            }
+            else if (age >= 40 && age <= 100)
             {
                 return "old";
             }
             else
             {
-                return "invalid age";
+                return "invalid age you entered";
             }
         }
     }
